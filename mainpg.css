@@ -165,11 +165,11 @@
     width: 595px;
 }
 .REV{
-    font-size: 18PX;
+    font-size: 15PX;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 340px;
+    margin-top: 330px;
     margin-left: 93px;
     border-color: blue;
     border-width: 1px;
@@ -413,11 +413,11 @@
         width: 500px;
     }
     .REV{
-        font-size: 18PX;
+        font-size: 15PX;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(253, 253, 253);
         text-align: center;
-        margin-top: 305px;
+        margin-top: 300px;
         margin-left: 0px;
         border-color: blue;
         border-width: 1px;
