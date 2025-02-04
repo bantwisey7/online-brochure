@@ -261,11 +261,11 @@
     }
     .div-wit-back{
         background-image: url('images/back2.png');
-        height: 1000px;
-        background-repeat: repeat-y;
+        height: 3000px;
+        background-repeat: repeat;
         background-size: contain;
         padding-top: 10px;
-        width: 600px;
+        width: 1280%;
     }
     .heading{
         height: 70px;
