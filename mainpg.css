@@ -6,9 +6,9 @@
     background-color: rgb(245, 249, 252);
 }
 .div-wit-back{
-    background-image: url('images/back.png');
-    height: 720px;
-    background-repeat: no-repeat;
+    background-image: url('images/back3.png');
+    height: 1200px;
+    background-repeat: repeat;
     background-size: cover;
     padding-top: 7px;
     width: 100%;
@@ -70,18 +70,18 @@
     font-weight: 300;
 }
 .present{
-    font-family: 'Gabriola';
-    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
     text-align: center;
     color: rgb(0, 47, 255);
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 300;
     height: 15px;
     width: 100%;
 }
 .in-honour-of{
-    font-family: 'Gabriola';
+    font-family: 'Times New Roman';
     font-size: 20px;
     color: rgb(0, 47, 255);
     margin-top: 0px;
@@ -114,19 +114,27 @@
     align-self: center;
 }
 .main-content{
-    display: flex;
+    display: block;
     height: 520px;
     width: 100%;
     margin-bottom: 0px;
     justify-content: center;
 }
+
+.left-right{
+    display: flex;
+    width: 1250px;
+    border-color: blue;
+    height: 500px;
+}
+
 .left-content{
     height: 450px;
     border-width: 1px;
     border-color: blue;
     margin-bottom: 2px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 620px;
     width: 300px;
     border-radius: 80px;
     background-image: url(images/emblem-left.png);
@@ -140,37 +148,37 @@
 }
 .middle-content{
     display: block;
-    height: 470px;
+    height: 500px;
     border-color: rgb(0, 47, 255);
     border-width: 2px;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 5px;
+    margin-left: 140px;
     margin-right: 5px;
-    width: 600px;
+    width: 1000px;
     align-content: center;
 }
 .middle-top{
     display: flex;
-    height: 430px;
+    height: 700px;
     border-color: rgb(0, 47, 255);
     border-width: 1px;
-    margin-top: 2px;
+    margin-top: 0px;
     background-image: url(images/daddy3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    width: 595px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+    width: 800px;
 }
 .REV{
-    font-size: 15PX;
+    font-size: 30PX;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 330px;
-    margin-left: 93px;
+    margin-top: 520px;
+    margin-left: 200px;
     border-color: blue;
     border-width: 1px;
     height: 60px;
@@ -253,17 +261,17 @@
     }
     .div-wit-back{
         background-image: url('images/back2.png');
-        height: 1250px;
+        height: 1000px;
         background-repeat: repeat-y;
         background-size: contain;
         padding-top: 10px;
         width: 600px;
     }
     .heading{
-        height: 30px;
-        width: 500px;
-        margin-left: 50px;
-        margin-right: 50px;
+        height: 70px;
+        width: 400px;
+        margin-left: 100px;
+        margin-right: 100px;
         border-radius: 30px;
         background-color: rgba(0, 0, 225, 0.6);
         box-shadow: 1px 1px 1px rgb(4, 216, 253);
@@ -273,33 +281,36 @@
     
     .logo{
         background-image: url(images/logo.png);
-        height: 35px;
-        width: 35px;
-        margin-left: 80px;
+        height: 80px;
+        width: 80px;
+        margin-left: 50px;
         margin-top: 0px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+        margin-bottom: 5px;
     }
     .logo1{
         background-image: url(images/logo.png);
-        height: 35px;
-        width: 35px;
+        height: 80px;
+        width: 80px;
         margin-left: 20px;
-        margin-right: 80px;
+        margin-right: 50px;
         margin-top: 0px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+        margin-bottom: 5px;
     }
     .text{
         margin-left: 20px;
         height: 20px;
         width: 500px;
+        margin-top: 15px;
     }
     .name{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
+        font-size: 13px;
         text-align: center;
         color:yellow;
         margin-top: 2px;
@@ -308,7 +319,7 @@
     }
     .church{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 9px;
+        font-size: 10px;
         text-align: center;
         color: yellow;
         margin-top: 0px;
@@ -317,7 +328,7 @@
     }
 
     .present{
-        font-family: 'Gabriola';
+        font-family: 'Times New Roman';
         font-size: 18px;
         text-align: center;
         color: rgb(0, 47, 255);
@@ -328,7 +339,7 @@
         width: 100%;
     }
     .in-honour-of{
-        font-family: 'Gabriola';
+        font-family: 'Times New Roman';
         font-size: 20px;
         color: rgb(0, 47, 255);
         margin-top: 0px;
@@ -355,8 +366,8 @@
         justify-content: center;
     }
     .line{
-        width: 200px;
-        height: 0.5px;
+        width: 160px;
+        height: 1px;
         background-color: blue;
         align-self: center;
     }
@@ -372,8 +383,9 @@
         border-width: 1px;
         border-color: blue;
         margin-bottom: 20px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 70px;
+        margin-right: 40px;
+        margin-top: 35px;
         width: 200px;
         border-radius: 50px;
         background-image: url(images/emblem-left.png);
@@ -393,9 +405,9 @@
         border-width: 2px;
         margin-top: 2px;
         margin-bottom: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
-        width: 500px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 600px;
         align-content: center;
     }
     .middle-top{
@@ -408,21 +420,23 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        margin-bottom: 2px;
-        margin-left: 2px;
-        width: 500px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 590px;
+        border-style: solid;
     }
     .REV{
-        font-size: 15PX;
+        font-size: 20PX;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(253, 253, 253);
         text-align: center;
-        margin-top: 300px;
-        margin-left: 0px;
+        margin-top: 305px;
+        margin-left: 50px;
         border-color: blue;
         border-width: 1px;
-        height: 30px;
-        width: 500px;
+        height: 75px;
+        width: 490px;
+        border-style: solid;
     }
     .middle-down{
         border-color: blue;
@@ -442,7 +456,7 @@
         cursor: pointer;
         border-radius: 5px;
         height: 20px;
-        width: 250px;
+        width: 220px;
         border-radius: 20px;
         padding-top: 10px;
         box-shadow: 2px, 2px, 2px;
@@ -457,9 +471,9 @@
         border-width: 1px;
         border-color: blue;
         margin-bottom: 2px;
-        margin-left: 200px;
+        margin-left: 20px;
         margin-right: 200px;
-        margin-top: 45px;
+        margin-top: 35px;
         width: 200px;
         border-radius: 50px;
         background-image: url(images/emblem-right.png);
@@ -484,7 +498,8 @@
         color: rgb(248, 249, 252);
         margin-top: 0px;
         display: block;
-        padding-top: 0px;
-        padding-bottom: 4px;
+        padding-top: 1px;
+        padding-bottom: 2px;
         justify-content: center;
+    }
 }
