@@ -264,7 +264,7 @@
         height: 2680px;
         background-repeat: repeat;
         background-size: contain;
-        padding-top: 10px;
+        padding-top: 40px;
         width: 1280px;
     }
     .heading{
@@ -284,24 +284,24 @@
         background-image: url(images/logo.png);
         height: 80px;
         width: 80px;
-        margin-left: 50px;
-        margin-top: 0px;
+        margin-left: 10px;
+        margin-top: 20px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .logo1{
         background-image: url(images/logo.png);
         height: 80px;
         width: 80px;
-        margin-left: 20px;
-        margin-right: 50px;
-        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .text{
         margin-left: 20px;
@@ -311,7 +311,7 @@
     }
     .name{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
+        font-size: 35px;
         text-align: center;
         color:yellow;
         margin-top: 2px;
@@ -320,7 +320,7 @@
     }
     .church{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 10px;
+        font-size: 20px;
         text-align: center;
         color: yellow;
         margin-top: 0px;
@@ -330,18 +330,18 @@
 
     .present{
         font-family: 'Times New Roman';
-        font-size: 18px;
+        font-size: 40px;
         text-align: center;
         color: rgb(0, 47, 255);
-        margin-top: 5px;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
         font-weight: 100;
         height: 15px;
         width: 100%;
     }
     .in-honour-of{
         font-family: 'Times New Roman';
-        font-size: 20px;
+        font-size: 40px;
         color: rgb(0, 47, 255);
         margin-top: 0px;
         font-weight: 300;
@@ -351,13 +351,15 @@
         margin-left: 40px;
     }
     .send_off{
-        font-family: 'Hobo Std';
-        font-size: 25px;
+        font-family: 'Arial Bold';
+        font-size: 90px;
+        font-style: italic;
         text-align: center;
         color: rgb(0, 47, 255);
         margin-top: 0px;
         margin-bottom: 0px;
-        font-weight: 100;
+        font-weight: 800;
+        
         display: flex;
         justify-content: center;
         padding-bottom: 3px;
@@ -367,28 +369,29 @@
         justify-content: center;
     }
     .line{
-        width: 160px;
-        height: 1px;
+        width: 400px;
+        height: 2px;
         background-color: blue;
         align-self: center;
     }
     .main-content{
         display: block;
-        height: 520px;
+        height: 2200px;
         width: 100%;
         margin-bottom: 0px;
         justify-content: center;
+        border-color: blue;
     }
     .left-content{
-        height: 300px;
+        height: 1000px;
         border-width: 1px;
         border-color: blue;
         margin-bottom: 20px;
-        margin-left: 70px;
-        margin-right: 40px;
+        margin-left: 30px;
+        margin-right: 20px;
         margin-top: 35px;
-        width: 200px;
-        border-radius: 50px;
+        width: 600px;
+        border-radius: 250px;
         background-image: url(images/emblem-left.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -401,43 +404,42 @@
     }
     .middle-content{
         display: block;
-        height: 400px;
+        height: 1030px;
         border-color: rgb(0, 47, 255);
         border-width: 2px;
         margin-top: 2px;
         margin-bottom: 15px;
         margin-left: 0px;
         margin-right: 0px;
-        width: 600px;
+        width: 1270px;
         align-content: center;
+        border-color: blue;
     }
     .middle-top{
         display: flex;
-        height: 400px;
+        height: 900px;
         border-color: rgb(0, 47, 255);
         border-width: 1px;
-        margin-top: 2px;
+        margin-top: 0px;
         background-image: url(images/daddy3.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         margin-bottom: 0px;
         margin-left: 0px;
-        width: 590px;
-        border-style: solid;
+        width: 1270px;
     }
     .REV{
-        font-size: 20PX;
+        font-size: 50PX;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(253, 253, 253);
         text-align: center;
-        margin-top: 305px;
-        margin-left: 50px;
+        margin-top: 670px;
+        margin-left: 300px;
         border-color: blue;
         border-width: 1px;
-        height: 75px;
-        width: 490px;
-        border-style: solid;
+        height: 200px;
+        width: 700px;
     }
     .middle-down{
         border-color: blue;
@@ -445,9 +447,10 @@
         display: flex;
         justify-content: center;
         height: 50px;
+        width: 1270;
     }
     .download-btn{
-        font-size: 10px;
+        font-size: 25px;
         color: white;
         font-weight: bold;
         font-family: Times New Roman;
@@ -456,11 +459,12 @@
         align-items: center;
         cursor: pointer;
         border-radius: 5px;
-        height: 20px;
-        width: 220px;
-        border-radius: 20px;
+        height: 70px;
+        width: 400px;
+        border-radius: 50px;
         padding-top: 10px;
         box-shadow: 2px, 2px, 2px;
+        border-color: blue;
     }
     .download-btn:hover{
         color: black;
@@ -468,15 +472,15 @@
     }
     
     .right-content{
-        height: 300px;
+        height: 1000px;
         border-width: 1px;
         border-color: blue;
         margin-bottom: 2px;
-        margin-left: 20px;
-        margin-right: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-top: 35px;
-        width: 200px;
-        border-radius: 50px;
+        width: 600px;
+        border-radius: 250px;
         background-image: url(images/emblem-right.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -488,11 +492,11 @@
         justify-content: center;
     }
     .footer{
-        height: 70px;
+        height: 200px;
         width: 1280px;
         background-color: rgb(3, 3, 109);
-        margin-top: 10px;
-        font-size: 10PX;
+        margin-top: 0px;
+        font-size: 30PX;
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
@@ -500,7 +504,7 @@
         margin-top: 0px;
         display: block;
         padding-top: 1px;
-        padding-bottom: 2px;
+        padding-bottom: 4px;
         justify-content: center;
     }
 }
